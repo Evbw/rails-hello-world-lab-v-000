@@ -4,5 +4,5 @@ class ApplicationController < ActionController::Base
   protect_from_forgery with: :exception
 
   get '/hello_world' do
-    erb: application.html.erb
+    erb :'application.html.erb'
 end
