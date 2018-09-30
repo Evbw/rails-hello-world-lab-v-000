@@ -5,4 +5,6 @@ class ApplicationController < ActionController::Base
 
   get '/hello_world' do
     erb :'application.html.erb'
+  end
+  
 end
